@@ -1,0 +1,116 @@
+
+/* Estilos generales de la página */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f1eb;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Cabecera */
+
+header {
+    background-color: #49372b;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0;
+    color: #e8ded5;
+}
+
+/* Contenido principal */
+
+main {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #49372b;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Tabla de resultados */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #76543d;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7f4f0;
+}
+
+tbody tr:hover {
+    background-color: #eee5dc;
+}
+
+/* Estado del análisis */
+
+#estado {
+    text-align: center;
+    color: #76543d;
+    font-style: italic;
+}
+
+/* Pie de página */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777777;
+    font-size: 0.9em;
+}
+
+/* Adaptación a pantallas pequeñas */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+}
