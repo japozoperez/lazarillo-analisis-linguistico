@@ -13,7 +13,7 @@ async function analizarTexto() {
 
     try {
         // Cargar el archivo de texto completo
-        const respuesta = await fetch("/02_Texto_Limpio/lazarillo_limpio.txt");
+        const respuesta = await fetch("lazarillo_limpio.txt");
 
         if (!respuesta.ok) {
             throw new Error("No se ha podido cargar el archivo de texto.");
